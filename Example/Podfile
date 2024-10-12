@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'LuckyPropertyWrapper_Example' do
+  pod 'LuckyPropertyWrapper', :path => '../'
+
+  target 'LuckyPropertyWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
