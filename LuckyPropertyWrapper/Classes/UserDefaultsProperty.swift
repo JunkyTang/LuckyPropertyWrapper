@@ -28,6 +28,7 @@ public struct UserDefaultsProperty<T: Codable> {
             let encoder = JSONEncoder()
             if let encodedValue = try? encoder.encode(newValue) {
                 ud.set(encodedValue, forKey: key)
+                ud.synchronize()
             }
         }
     }
