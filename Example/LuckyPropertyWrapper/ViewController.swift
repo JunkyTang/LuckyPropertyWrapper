@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import LuckyPropertyWrapper
 
 class ViewController: UIViewController {
+    
+    @KeychainProperty(key: "token", defaultValue: nil)
+    var msg: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print(msg)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +25,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        msg = "Hello world!"
+        print("write success")
+    }
+    
 }
 

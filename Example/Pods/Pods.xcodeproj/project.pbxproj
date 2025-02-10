@@ -12,6 +12,7 @@
 		2D1CCB689AD8249394A9482861D8F8B3 /* PassthroughSubjectProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76B48F909806F46AAB028572691426 /* PassthroughSubjectProperty.swift */; };
 		3B3A80952C7C5747000EFB03 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A80942C7C5747000EFB03 /* Atomic.swift */; };
 		3B4718372CBA848100992286 /* UserDefaultsProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4718362CBA848100992286 /* UserDefaultsProperty.swift */; };
+		3B6A316C2D59A4EC00DB19CD /* KeychainProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A316B2D59A4EC00DB19CD /* KeychainProperty.swift */; };
 		422AFD4032E435F35C46226FD7988058 /* Pods-LuckyPropertyWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D4571F3F660E677909E8BD85629D61 /* Pods-LuckyPropertyWrapper_Tests-dummy.m */; };
 		44907CE8C22511E52A57724B9720751B /* LuckyPropertyWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFE18385DD5477629165C244375246 /* LuckyPropertyWrapper-dummy.m */; };
 		5AE71F0E958AB3C494774CC6C082F753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -45,15 +46,16 @@
 		16444B946ADA41C52324867B4ABE71C1 /* Pods-LuckyPropertyWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyPropertyWrapper_Example.modulemap"; sourceTree = "<group>"; };
 		16D4571F3F660E677909E8BD85629D61 /* Pods-LuckyPropertyWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyPropertyWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
 		272007052F139FFB5636B71F4ADA0B9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyPropertyWrapper_Example"; path = Pods_LuckyPropertyWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPropertyWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B45D621DCC985AE7540F3B936932F03 /* Pods-LuckyPropertyWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyPropertyWrapper_Tests"; path = Pods_LuckyPropertyWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPropertyWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		339C26406B47F445C2D28A902F8D2F1E /* Pods-LuckyPropertyWrapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Tests-Info.plist"; sourceTree = "<group>"; };
 		3515ACDB586490A900BA8BC0A6CDA4C9 /* Pods-LuckyPropertyWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyPropertyWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3B3A80942C7C5747000EFB03 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = LuckyPropertyWrapper/Classes/Atomic.swift; sourceTree = "<group>"; };
 		3B4718362CBA848100992286 /* UserDefaultsProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserDefaultsProperty.swift; path = LuckyPropertyWrapper/Classes/UserDefaultsProperty.swift; sourceTree = "<group>"; };
+		3B6A316B2D59A4EC00DB19CD /* KeychainProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainProperty.swift; sourceTree = "<group>"; };
 		3BE5CEF4CEE62F41379958CEF262ABE6 /* Pods-LuckyPropertyWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyPropertyWrapper; path = LuckyPropertyWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LuckyPropertyWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D76B48F909806F46AAB028572691426 /* PassthroughSubjectProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughSubjectProperty.swift; path = LuckyPropertyWrapper/Classes/PassthroughSubjectProperty.swift; sourceTree = "<group>"; };
 		4ED0FD82AD54CADFC960CDAF5F4E0182 /* LuckyPropertyWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyPropertyWrapper-prefix.pch"; sourceTree = "<group>"; };
 		50D31CF2134E5E68E3E4FCD5844BD3F3 /* LuckyPropertyWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LuckyPropertyWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -117,9 +119,9 @@
 		0BFF314321B3161A7B693F74EBD4DE8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */,
-				2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */,
-				2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */,
+				3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */,
+				2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */,
+				2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +140,7 @@
 				B333BF58EFA27D25B8E7972A013FCC04 /* CurrentValueSubjectProperty.swift */,
 				3D76B48F909806F46AAB028572691426 /* PassthroughSubjectProperty.swift */,
 				3B4718362CBA848100992286 /* UserDefaultsProperty.swift */,
+				3B6A316B2D59A4EC00DB19CD /* KeychainProperty.swift */,
 				3B3A80942C7C5747000EFB03 /* Atomic.swift */,
 				A05840F27D203A25CA6A04CE04A504BE /* Pod */,
 				A155E96DDC8D80B6F3D01CD21C786D95 /* Support Files */,
@@ -277,7 +280,7 @@
 			);
 			name = LuckyPropertyWrapper;
 			productName = LuckyPropertyWrapper;
-			productReference = 3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */;
+			productReference = 3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B1E0690F4E8479B2780CB609931599BC /* Pods-LuckyPropertyWrapper_Tests */ = {
@@ -296,7 +299,7 @@
 			);
 			name = "Pods-LuckyPropertyWrapper_Tests";
 			productName = Pods_LuckyPropertyWrapper_Tests;
-			productReference = 2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */;
+			productReference = 2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EF92BCCFC9D492C5C438F8423BCD21FA /* Pods-LuckyPropertyWrapper_Example */ = {
@@ -315,7 +318,7 @@
 			);
 			name = "Pods-LuckyPropertyWrapper_Example";
 			productName = Pods_LuckyPropertyWrapper_Example;
-			productReference = 2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */;
+			productReference = 2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -384,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6A316C2D59A4EC00DB19CD /* KeychainProperty.swift in Sources */,
 				3B3A80952C7C5747000EFB03 /* Atomic.swift in Sources */,
 				E9674F90B3C11FDED0B3225767935338 /* CurrentValueSubjectProperty.swift in Sources */,
 				44907CE8C22511E52A57724B9720751B /* LuckyPropertyWrapper-dummy.m in Sources */,
