@@ -1,6 +1,6 @@
 {
   "name": "LuckyPropertyWrapper",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "summary": "A short description of LuckyPropertyWrapper.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/JunkyTang/LuckyPropertyWrapper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JunkyTang/LuckyPropertyWrapper.git",
-    "tag": "0.1.0"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "13.0"

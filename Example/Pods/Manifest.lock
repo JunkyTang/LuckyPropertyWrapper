@@ -1,5 +1,5 @@
 PODS:
-  - LuckyPropertyWrapper (0.1.0)
+  - LuckyPropertyWrapper (0.2.2)
 
 DEPENDENCIES:
   - LuckyPropertyWrapper (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LuckyPropertyWrapper: 96057c1f2ba97ac873174992c08c3af8fd195cbc
+  LuckyPropertyWrapper: c8137bc83ba17f4b87ab1bb5e4a228c7f3601ff3
 
 PODFILE CHECKSUM: 7c5c86c31a9e4582760e93a69c73183600010df3
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

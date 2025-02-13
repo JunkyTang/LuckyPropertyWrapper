@@ -7,146 +7,145 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CCC4279D948031443FE7B947A7A4A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0D4802E986E152CD5D2F3813D13E31E8 /* Pods-LuckyPropertyWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5440DBB928BCE377C96FBF2B77FC87A /* Pods-LuckyPropertyWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D1CCB689AD8249394A9482861D8F8B3 /* PassthroughSubjectProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76B48F909806F46AAB028572691426 /* PassthroughSubjectProperty.swift */; };
-		3B3A80952C7C5747000EFB03 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A80942C7C5747000EFB03 /* Atomic.swift */; };
-		3B4718372CBA848100992286 /* UserDefaultsProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4718362CBA848100992286 /* UserDefaultsProperty.swift */; };
-		3B6A316C2D59A4EC00DB19CD /* KeychainProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A316B2D59A4EC00DB19CD /* KeychainProperty.swift */; };
-		422AFD4032E435F35C46226FD7988058 /* Pods-LuckyPropertyWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D4571F3F660E677909E8BD85629D61 /* Pods-LuckyPropertyWrapper_Tests-dummy.m */; };
-		44907CE8C22511E52A57724B9720751B /* LuckyPropertyWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFE18385DD5477629165C244375246 /* LuckyPropertyWrapper-dummy.m */; };
-		5AE71F0E958AB3C494774CC6C082F753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		77784450530CBB417A8A61E6AEC9DE5F /* LuckyPropertyWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 007C661B699D0BFA959D53FB17C7AAC5 /* LuckyPropertyWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D881A9494D7411FD54A0615472406C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E3B91EB80D4357EAFB09DF967D832608 /* Pods-LuckyPropertyWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF04AEEA3FEDD2414D645C0DFCE01D /* Pods-LuckyPropertyWrapper_Example-dummy.m */; };
-		E9674F90B3C11FDED0B3225767935338 /* CurrentValueSubjectProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333BF58EFA27D25B8E7972A013FCC04 /* CurrentValueSubjectProperty.swift */; };
-		F5DCB2675C5CF9C737384AB2B96A4476 /* Pods-LuckyPropertyWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0E8999A49ACB451B3948D374CD940D /* Pods-LuckyPropertyWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03E3D80E823F0090D0CCD5CB28A82359 /* PassthroughSubjectProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B263A30084048A9BB3222CDFFEFACE7 /* PassthroughSubjectProperty.swift */; };
+		12DA8AE10F89B8C9A4C26A380535C082 /* Pods-LuckyPropertyWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D4571F3F660E677909E8BD85629D61 /* Pods-LuckyPropertyWrapper_Tests-dummy.m */; };
+		2D7A0C12280F33902D6AEB319D1659B3 /* UserDefaultsProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5496E979C7366DFF9E85DDCDB5DBA250 /* UserDefaultsProperty.swift */; };
+		39338627100150251D7C1A6E6F70963E /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297494E1E4C2CBE674CD683F7B0B69B6 /* Atomic.swift */; };
+		4CBD5CCB66909E3F7B87331EE4A68012 /* Pods-LuckyPropertyWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0E8999A49ACB451B3948D374CD940D /* Pods-LuckyPropertyWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E74DD7CA2DBA4DA356D91983E37FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		69AD7FB3C137A4A6B236E3E6AD42BB46 /* CurrentValueSubjectProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553599B489FCFF132B3638340A61EC6 /* CurrentValueSubjectProperty.swift */; };
+		9E6A111E797DE8ED00F609A241E43A0D /* Pods-LuckyPropertyWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF04AEEA3FEDD2414D645C0DFCE01D /* Pods-LuckyPropertyWrapper_Example-dummy.m */; };
+		B587113C14932D25C0B7767155522218 /* LuckyPropertyWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08907F655B3A4B57945C5B72B96B8372 /* LuckyPropertyWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD19F8189CE1524CA5B0DF2235458517 /* LuckyPropertyWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00760A4210024F479E4485F27113B888 /* LuckyPropertyWrapper-dummy.m */; };
+		C084126A2CE884725DCA1FBE0E9583DF /* KeychainProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617AE5B952140800EF8CCAFCF6112113 /* KeychainProperty.swift */; };
+		C5084FFE0044DDF6326B01F88AA0BC75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D430B57FF675B381FC1C69EAFE9540A0 /* Pods-LuckyPropertyWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5440DBB928BCE377C96FBF2B77FC87A /* Pods-LuckyPropertyWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4820BA891EB0EBA4F9B1332C1050236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		37430A92E525057FC3D3158E9B89F018 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF92BCCFC9D492C5C438F8423BCD21FA;
-			remoteInfo = "Pods-LuckyPropertyWrapper_Example";
-		};
-		988819D73593B7AF4FB09466166E0884 /* PBXContainerItemProxy */ = {
+		A5565171E2B035992FE669E10F5FDB53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9801BF84D7F6046F051A823A2233A5E1;
 			remoteInfo = LuckyPropertyWrapper;
 		};
+		AE42B6F7CD119C19D803FF968958E12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF92BCCFC9D492C5C438F8423BCD21FA;
+			remoteInfo = "Pods-LuckyPropertyWrapper_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007C661B699D0BFA959D53FB17C7AAC5 /* LuckyPropertyWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyPropertyWrapper-umbrella.h"; sourceTree = "<group>"; };
-		037A59D9B24716889104A29EA2737075 /* LuckyPropertyWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyPropertyWrapper.modulemap; sourceTree = "<group>"; };
+		00760A4210024F479E4485F27113B888 /* LuckyPropertyWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckyPropertyWrapper-dummy.m"; sourceTree = "<group>"; };
+		0243189D84B885A7E9C1AB04D6A94A7B /* LuckyPropertyWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyPropertyWrapper-Info.plist"; sourceTree = "<group>"; };
+		08907F655B3A4B57945C5B72B96B8372 /* LuckyPropertyWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyPropertyWrapper-umbrella.h"; sourceTree = "<group>"; };
 		16444B946ADA41C52324867B4ABE71C1 /* Pods-LuckyPropertyWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyPropertyWrapper_Example.modulemap"; sourceTree = "<group>"; };
 		16D4571F3F660E677909E8BD85629D61 /* Pods-LuckyPropertyWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyPropertyWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
-		272007052F139FFB5636B71F4ADA0B9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPropertyWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B263A30084048A9BB3222CDFFEFACE7 /* PassthroughSubjectProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughSubjectProperty.swift; path = LuckyPropertyWrapper/Classes/PassthroughSubjectProperty.swift; sourceTree = "<group>"; };
+		2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyPropertyWrapper_Example"; path = Pods_LuckyPropertyWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		297494E1E4C2CBE674CD683F7B0B69B6 /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = LuckyPropertyWrapper/Classes/Atomic.swift; sourceTree = "<group>"; };
 		2B45D621DCC985AE7540F3B936932F03 /* Pods-LuckyPropertyWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPropertyWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyPropertyWrapper_Tests"; path = Pods_LuckyPropertyWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCF4BDEB81ABB31AA4BF90286FEB332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		339C26406B47F445C2D28A902F8D2F1E /* Pods-LuckyPropertyWrapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Tests-Info.plist"; sourceTree = "<group>"; };
 		3515ACDB586490A900BA8BC0A6CDA4C9 /* Pods-LuckyPropertyWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyPropertyWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3B3A80942C7C5747000EFB03 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = LuckyPropertyWrapper/Classes/Atomic.swift; sourceTree = "<group>"; };
-		3B4718362CBA848100992286 /* UserDefaultsProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserDefaultsProperty.swift; path = LuckyPropertyWrapper/Classes/UserDefaultsProperty.swift; sourceTree = "<group>"; };
-		3B6A316B2D59A4EC00DB19CD /* KeychainProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainProperty.swift; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BE5CEF4CEE62F41379958CEF262ABE6 /* Pods-LuckyPropertyWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LuckyPropertyWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D76B48F909806F46AAB028572691426 /* PassthroughSubjectProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughSubjectProperty.swift; path = LuckyPropertyWrapper/Classes/PassthroughSubjectProperty.swift; sourceTree = "<group>"; };
-		4ED0FD82AD54CADFC960CDAF5F4E0182 /* LuckyPropertyWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyPropertyWrapper-prefix.pch"; sourceTree = "<group>"; };
-		50D31CF2134E5E68E3E4FCD5844BD3F3 /* LuckyPropertyWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LuckyPropertyWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		513E618B2C13B41512AA8CDD0476997B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3C13B92BF2DD03172F70D80162FFB9E5 /* LuckyPropertyWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyPropertyWrapper.modulemap; sourceTree = "<group>"; };
+		3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyPropertyWrapper; path = LuckyPropertyWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B09A0B9C878946CC3E985D5EA43037 /* Pods-LuckyPropertyWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C236FCEEB28C7D9EF48BBCAABE1859A /* LuckyPropertyWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyPropertyWrapper.release.xcconfig; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5496E979C7366DFF9E85DDCDB5DBA250 /* UserDefaultsProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsProperty.swift; path = LuckyPropertyWrapper/Classes/UserDefaultsProperty.swift; sourceTree = "<group>"; };
+		58B6EF3554D9EFCC4BC3C38111610234 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		617AE5B952140800EF8CCAFCF6112113 /* KeychainProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainProperty.swift; path = LuckyPropertyWrapper/Classes/KeychainProperty.swift; sourceTree = "<group>"; };
+		6F1886F6DD076B7627799615A098466D /* LuckyPropertyWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyPropertyWrapper.release.xcconfig; sourceTree = "<group>"; };
 		7F864CF94DA7E37028508EBF7034305F /* Pods-LuckyPropertyWrapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyPropertyWrapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		856931A88C6ED9277ED353CBD7FB32F9 /* LuckyPropertyWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LuckyPropertyWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D6E73F01676D5FCDDE360FC56068B02 /* Pods-LuckyPropertyWrapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyPropertyWrapper_Tests.modulemap"; sourceTree = "<group>"; };
 		910E766B9BBAE7F2AD9CF6C61A13156C /* Pods-LuckyPropertyWrapper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Example-Info.plist"; sourceTree = "<group>"; };
 		9212BF064BDAD432A28E9BEB316154C8 /* Pods-LuckyPropertyWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D4E734BA1294FE65A033EFD00541C41 /* Pods-LuckyPropertyWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5B87175E68CA5366D12760C5FDF64A2 /* Pods-LuckyPropertyWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5EFE18385DD5477629165C244375246 /* LuckyPropertyWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckyPropertyWrapper-dummy.m"; sourceTree = "<group>"; };
 		AA0E8999A49ACB451B3948D374CD940D /* Pods-LuckyPropertyWrapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyPropertyWrapper_Example-umbrella.h"; sourceTree = "<group>"; };
-		B333BF58EFA27D25B8E7972A013FCC04 /* CurrentValueSubjectProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentValueSubjectProperty.swift; path = LuckyPropertyWrapper/Classes/CurrentValueSubjectProperty.swift; sourceTree = "<group>"; };
 		B94231133F487BD0FDFEA876A2B7941A /* Pods-LuckyPropertyWrapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyPropertyWrapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C8C09DE9F1766203F5956D5BD53AB95C /* LuckyPropertyWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyPropertyWrapper-Info.plist"; sourceTree = "<group>"; };
+		BACB0BEA3EE031A7D2340339635B4E47 /* LuckyPropertyWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyPropertyWrapper-prefix.pch"; sourceTree = "<group>"; };
 		CDCF04AEEA3FEDD2414D645C0DFCE01D /* Pods-LuckyPropertyWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyPropertyWrapper_Example-dummy.m"; sourceTree = "<group>"; };
+		D212D92D3692091D1E81AAFC13489F90 /* LuckyPropertyWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyPropertyWrapper.debug.xcconfig; sourceTree = "<group>"; };
 		E5440DBB928BCE377C96FBF2B77FC87A /* Pods-LuckyPropertyWrapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyPropertyWrapper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FBEAC74939FF4C1F24029F6BFC399F31 /* LuckyPropertyWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyPropertyWrapper.debug.xcconfig; sourceTree = "<group>"; };
+		F553599B489FCFF132B3638340A61EC6 /* CurrentValueSubjectProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentValueSubjectProperty.swift; path = LuckyPropertyWrapper/Classes/CurrentValueSubjectProperty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		340BFB8472C34C4A223F0FA0296F6323 /* Frameworks */ = {
+		7FE470A3FF7A4DE7AC807042F29DE011 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D881A9494D7411FD54A0615472406C1E /* Foundation.framework in Frameworks */,
+				D4820BA891EB0EBA4F9B1332C1050236 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B18E95EC28FB680955746BCB282A4664 /* Frameworks */ = {
+		8465F8FAF8A5D2ECFB0F6CBFE22813D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCC4279D948031443FE7B947A7A4A1B /* Foundation.framework in Frameworks */,
+				C5084FFE0044DDF6326B01F88AA0BC75 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC3B559AA5653B49850AC7F6ABF20BA5 /* Frameworks */ = {
+		D4ED870F03A0E541F9E6F87B5424ACD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE71F0E958AB3C494774CC6C082F753 /* Foundation.framework in Frameworks */,
+				62E74DD7CA2DBA4DA356D91983E37FA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		005031FDA67CE8FD94088ECD0E9845F3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5AFD1AEB93A8B47C1990C05FB1AD3D24 /* LuckyPropertyWrapper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		0BFF314321B3161A7B693F74EBD4DE8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */,
-				2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */,
-				2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */,
+				3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */,
+				2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */,
+				2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		451541B27E18921126069919E4E0A7F3 /* LuckyPropertyWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5AFD1AEB93A8B47C1990C05FB1AD3D24 /* LuckyPropertyWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				B333BF58EFA27D25B8E7972A013FCC04 /* CurrentValueSubjectProperty.swift */,
-				3D76B48F909806F46AAB028572691426 /* PassthroughSubjectProperty.swift */,
-				3B4718362CBA848100992286 /* UserDefaultsProperty.swift */,
-				3B6A316B2D59A4EC00DB19CD /* KeychainProperty.swift */,
-				3B3A80942C7C5747000EFB03 /* Atomic.swift */,
-				A05840F27D203A25CA6A04CE04A504BE /* Pod */,
-				A155E96DDC8D80B6F3D01CD21C786D95 /* Support Files */,
+				297494E1E4C2CBE674CD683F7B0B69B6 /* Atomic.swift */,
+				F553599B489FCFF132B3638340A61EC6 /* CurrentValueSubjectProperty.swift */,
+				617AE5B952140800EF8CCAFCF6112113 /* KeychainProperty.swift */,
+				1B263A30084048A9BB3222CDFFEFACE7 /* PassthroughSubjectProperty.swift */,
+				5496E979C7366DFF9E85DDCDB5DBA250 /* UserDefaultsProperty.swift */,
+				F09725E29E850D93D993CE82AF04DCEA /* Pod */,
+				641A90865C9CB816B997808529595837 /* Support Files */,
 			);
 			name = LuckyPropertyWrapper;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		641A90865C9CB816B997808529595837 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C13B92BF2DD03172F70D80162FFB9E5 /* LuckyPropertyWrapper.modulemap */,
+				00760A4210024F479E4485F27113B888 /* LuckyPropertyWrapper-dummy.m */,
+				0243189D84B885A7E9C1AB04D6A94A7B /* LuckyPropertyWrapper-Info.plist */,
+				BACB0BEA3EE031A7D2340339635B4E47 /* LuckyPropertyWrapper-prefix.pch */,
+				08907F655B3A4B57945C5B72B96B8372 /* LuckyPropertyWrapper-umbrella.h */,
+				D212D92D3692091D1E81AAFC13489F90 /* LuckyPropertyWrapper.debug.xcconfig */,
+				6F1886F6DD076B7627799615A098466D /* LuckyPropertyWrapper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LuckyPropertyWrapper";
 			sourceTree = "<group>";
 		};
 		67535FDA3371358CCA8B94D8248C0C7A /* Pods-LuckyPropertyWrapper_Tests */ = {
@@ -165,29 +164,12 @@
 			path = "Target Support Files/Pods-LuckyPropertyWrapper_Tests";
 			sourceTree = "<group>";
 		};
-		A05840F27D203A25CA6A04CE04A504BE /* Pod */ = {
+		9D66015BCFE48090E8A06C9E5DCED19A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				513E618B2C13B41512AA8CDD0476997B /* LICENSE */,
-				50D31CF2134E5E68E3E4FCD5844BD3F3 /* LuckyPropertyWrapper.podspec */,
-				272007052F139FFB5636B71F4ADA0B9C /* README.md */,
+				451541B27E18921126069919E4E0A7F3 /* LuckyPropertyWrapper */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A155E96DDC8D80B6F3D01CD21C786D95 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				037A59D9B24716889104A29EA2737075 /* LuckyPropertyWrapper.modulemap */,
-				A5EFE18385DD5477629165C244375246 /* LuckyPropertyWrapper-dummy.m */,
-				C8C09DE9F1766203F5956D5BD53AB95C /* LuckyPropertyWrapper-Info.plist */,
-				4ED0FD82AD54CADFC960CDAF5F4E0182 /* LuckyPropertyWrapper-prefix.pch */,
-				007C661B699D0BFA959D53FB17C7AAC5 /* LuckyPropertyWrapper-umbrella.h */,
-				FBEAC74939FF4C1F24029F6BFC399F31 /* LuckyPropertyWrapper.debug.xcconfig */,
-				5C236FCEEB28C7D9EF48BBCAABE1859A /* LuckyPropertyWrapper.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LuckyPropertyWrapper";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A52155088840F70ED0117BFBAB1675D6 /* Pods-LuckyPropertyWrapper_Example */ = {
@@ -220,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				005031FDA67CE8FD94088ECD0E9845F3 /* Development Pods */,
+				9D66015BCFE48090E8A06C9E5DCED19A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				0BFF314321B3161A7B693F74EBD4DE8B /* Products */,
 				AE668C2AFF16A0733B974BA92E35DD12 /* Targets Support Files */,
@@ -230,35 +212,53 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F09725E29E850D93D993CE82AF04DCEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				58B6EF3554D9EFCC4BC3C38111610234 /* LICENSE */,
+				856931A88C6ED9277ED353CBD7FB32F9 /* LuckyPropertyWrapper.podspec */,
+				2FCF4BDEB81ABB31AA4BF90286FEB332 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		308CDFC59ADFED3F8EEB5B4DB5ADE012 /* Headers */ = {
+		1C7B5F511865B6C2310CBFC6F4E3CD81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DCB2675C5CF9C737384AB2B96A4476 /* Pods-LuckyPropertyWrapper_Example-umbrella.h in Headers */,
+				D430B57FF675B381FC1C69EAFE9540A0 /* Pods-LuckyPropertyWrapper_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67D560D920BC9C1D2E09FCD57DA45694 /* Headers */ = {
+		3406EA3C0E0590D34DD5795B08784D87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4802E986E152CD5D2F3813D13E31E8 /* Pods-LuckyPropertyWrapper_Tests-umbrella.h in Headers */,
+				B587113C14932D25C0B7767155522218 /* LuckyPropertyWrapper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E34CA23EB01AE5528C497445829578DA /* Headers */ = {
+		D649416579820C5B307493269DD36685 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77784450530CBB417A8A61E6AEC9DE5F /* LuckyPropertyWrapper-umbrella.h in Headers */,
+				4CBD5CCB66909E3F7B87331EE4A68012 /* Pods-LuckyPropertyWrapper_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +267,12 @@
 /* Begin PBXNativeTarget section */
 		9801BF84D7F6046F051A823A2233A5E1 /* LuckyPropertyWrapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 474A2AAE59C60D6EC8057AA9C03CFFB3 /* Build configuration list for PBXNativeTarget "LuckyPropertyWrapper" */;
+			buildConfigurationList = 8C4FCD1B4FE21217BC0B03416F00A19A /* Build configuration list for PBXNativeTarget "LuckyPropertyWrapper" */;
 			buildPhases = (
-				E34CA23EB01AE5528C497445829578DA /* Headers */,
-				4C97723A15649D5F64A17C27F3A61D1F /* Sources */,
-				B18E95EC28FB680955746BCB282A4664 /* Frameworks */,
-				1C17474B45B6C7287CF6FF9C252B0964 /* Resources */,
+				3406EA3C0E0590D34DD5795B08784D87 /* Headers */,
+				73DB98FAEA670FC026D117558C7636E8 /* Sources */,
+				D4ED870F03A0E541F9E6F87B5424ACD7 /* Frameworks */,
+				405FB6259EFE0891EE0678ECE8F5C334 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -280,45 +280,45 @@
 			);
 			name = LuckyPropertyWrapper;
 			productName = LuckyPropertyWrapper;
-			productReference = 3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */;
+			productReference = 3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */;
 			productType = "com.apple.product-type.framework";
 		};
 		B1E0690F4E8479B2780CB609931599BC /* Pods-LuckyPropertyWrapper_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5B199BD0F91F97AD65F5F4FAD733B05 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Tests" */;
+			buildConfigurationList = F62BE1CA3447C493972240AC6C7BBF70 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Tests" */;
 			buildPhases = (
-				67D560D920BC9C1D2E09FCD57DA45694 /* Headers */,
-				D3CC903FB2F3BB154037A3DCDD50CC61 /* Sources */,
-				DC3B559AA5653B49850AC7F6ABF20BA5 /* Frameworks */,
-				5A1238BD788F8F63527CA49CA960776C /* Resources */,
+				1C7B5F511865B6C2310CBFC6F4E3CD81 /* Headers */,
+				B3F7A052CA57BAF63EC73EA704DCBD74 /* Sources */,
+				7FE470A3FF7A4DE7AC807042F29DE011 /* Frameworks */,
+				A2987F81CE283362E5E591A8A45AD7BF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5278F723FDC75B5C9F124E4EFC30778C /* PBXTargetDependency */,
+				C71EE46681349FB035D86DDD432D3198 /* PBXTargetDependency */,
 			);
 			name = "Pods-LuckyPropertyWrapper_Tests";
 			productName = Pods_LuckyPropertyWrapper_Tests;
-			productReference = 2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */;
+			productReference = 2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		EF92BCCFC9D492C5C438F8423BCD21FA /* Pods-LuckyPropertyWrapper_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E04184ED289F20C2C8B4F46C3CA48286 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Example" */;
+			buildConfigurationList = 241C8956DD452553E2E93E0A8B168565 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Example" */;
 			buildPhases = (
-				308CDFC59ADFED3F8EEB5B4DB5ADE012 /* Headers */,
-				23EA31C8ADA2701D046E521EBB1B3855 /* Sources */,
-				340BFB8472C34C4A223F0FA0296F6323 /* Frameworks */,
-				C1AD1DBEC898ECA76E97886805A380FC /* Resources */,
+				D649416579820C5B307493269DD36685 /* Headers */,
+				267984F0BF0673696D0BB0A5FD83C059 /* Sources */,
+				8465F8FAF8A5D2ECFB0F6CBFE22813D9 /* Frameworks */,
+				8666BD96C321CFF41D1D1CAF07EEA3BF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				60A97772D441B0673DDE71AD3C249929 /* PBXTargetDependency */,
+				84A413B5631096896565A56D50A8865C /* PBXTargetDependency */,
 			);
 			name = "Pods-LuckyPropertyWrapper_Example";
 			productName = Pods_LuckyPropertyWrapper_Example;
-			productReference = 2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */;
+			productReference = 2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,8 +327,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,6 +339,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 0BFF314321B3161A7B693F74EBD4DE8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -351,21 +353,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C17474B45B6C7287CF6FF9C252B0964 /* Resources */ = {
+		405FB6259EFE0891EE0678ECE8F5C334 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A1238BD788F8F63527CA49CA960776C /* Resources */ = {
+		8666BD96C321CFF41D1D1CAF07EEA3BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1AD1DBEC898ECA76E97886805A380FC /* Resources */ = {
+		A2987F81CE283362E5E591A8A45AD7BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,54 +377,127 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23EA31C8ADA2701D046E521EBB1B3855 /* Sources */ = {
+		267984F0BF0673696D0BB0A5FD83C059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B91EB80D4357EAFB09DF967D832608 /* Pods-LuckyPropertyWrapper_Example-dummy.m in Sources */,
+				9E6A111E797DE8ED00F609A241E43A0D /* Pods-LuckyPropertyWrapper_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C97723A15649D5F64A17C27F3A61D1F /* Sources */ = {
+		73DB98FAEA670FC026D117558C7636E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B6A316C2D59A4EC00DB19CD /* KeychainProperty.swift in Sources */,
-				3B3A80952C7C5747000EFB03 /* Atomic.swift in Sources */,
-				E9674F90B3C11FDED0B3225767935338 /* CurrentValueSubjectProperty.swift in Sources */,
-				44907CE8C22511E52A57724B9720751B /* LuckyPropertyWrapper-dummy.m in Sources */,
-				2D1CCB689AD8249394A9482861D8F8B3 /* PassthroughSubjectProperty.swift in Sources */,
-				3B4718372CBA848100992286 /* UserDefaultsProperty.swift in Sources */,
+				39338627100150251D7C1A6E6F70963E /* Atomic.swift in Sources */,
+				69AD7FB3C137A4A6B236E3E6AD42BB46 /* CurrentValueSubjectProperty.swift in Sources */,
+				C084126A2CE884725DCA1FBE0E9583DF /* KeychainProperty.swift in Sources */,
+				BD19F8189CE1524CA5B0DF2235458517 /* LuckyPropertyWrapper-dummy.m in Sources */,
+				03E3D80E823F0090D0CCD5CB28A82359 /* PassthroughSubjectProperty.swift in Sources */,
+				2D7A0C12280F33902D6AEB319D1659B3 /* UserDefaultsProperty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3CC903FB2F3BB154037A3DCDD50CC61 /* Sources */ = {
+		B3F7A052CA57BAF63EC73EA704DCBD74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422AFD4032E435F35C46226FD7988058 /* Pods-LuckyPropertyWrapper_Tests-dummy.m in Sources */,
+				12DA8AE10F89B8C9A4C26A380535C082 /* Pods-LuckyPropertyWrapper_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5278F723FDC75B5C9F124E4EFC30778C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LuckyPropertyWrapper_Example";
-			target = EF92BCCFC9D492C5C438F8423BCD21FA /* Pods-LuckyPropertyWrapper_Example */;
-			targetProxy = 37430A92E525057FC3D3158E9B89F018 /* PBXContainerItemProxy */;
-		};
-		60A97772D441B0673DDE71AD3C249929 /* PBXTargetDependency */ = {
+		84A413B5631096896565A56D50A8865C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LuckyPropertyWrapper;
 			target = 9801BF84D7F6046F051A823A2233A5E1 /* LuckyPropertyWrapper */;
-			targetProxy = 988819D73593B7AF4FB09466166E0884 /* PBXContainerItemProxy */;
+			targetProxy = A5565171E2B035992FE669E10F5FDB53 /* PBXContainerItemProxy */;
+		};
+		C71EE46681349FB035D86DDD432D3198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LuckyPropertyWrapper_Example";
+			target = EF92BCCFC9D492C5C438F8423BCD21FA /* Pods-LuckyPropertyWrapper_Example */;
+			targetProxy = AE42B6F7CD119C19D803FF968958E12F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D2FD3F73FA3E0F00CE0990B04BF49F3 /* Debug */ = {
+		18AECB969AD60D07A7AFEB20500FC07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D212D92D3692091D1E81AAFC13489F90 /* LuckyPropertyWrapper.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper.modulemap";
+				PRODUCT_MODULE_NAME = LuckyPropertyWrapper;
+				PRODUCT_NAME = LuckyPropertyWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		361E5EFCF2A5F9B7788D182AC3DD9589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9212BF064BDAD432A28E9BEB316154C8 /* Pods-LuckyPropertyWrapper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Example/Pods-LuckyPropertyWrapper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Example/Pods-LuckyPropertyWrapper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F5EB7B978EF6B7D221D3ABA1876D11B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B45D621DCC985AE7540F3B936932F03 /* Pods-LuckyPropertyWrapper_Example.debug.xcconfig */;
 			buildSettings = {
@@ -437,6 +512,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Example/Pods-LuckyPropertyWrapper_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -456,41 +533,9 @@
 			};
 			name = Debug;
 		};
-		11A83D41BB5F54286E778F442CB07F8D /* Debug */ = {
+		8320BF1143BCDB4FFDA527CBAF4C7A8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBEAC74939FF4C1F24029F6BFC399F31 /* LuckyPropertyWrapper.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper.modulemap";
-				PRODUCT_MODULE_NAME = LuckyPropertyWrapper;
-				PRODUCT_NAME = LuckyPropertyWrapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		52CDDBA740524C1DAE50E525EBF32145 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9212BF064BDAD432A28E9BEB316154C8 /* Pods-LuckyPropertyWrapper_Example.release.xcconfig */;
+			baseConfigurationReference = 3BE5CEF4CEE62F41379958CEF262ABE6 /* Pods-LuckyPropertyWrapper_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -503,12 +548,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Example/Pods-LuckyPropertyWrapper_Example-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Tests/Pods-LuckyPropertyWrapper_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Example/Pods-LuckyPropertyWrapper_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Tests/Pods-LuckyPropertyWrapper_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -644,13 +691,51 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B12BE0F89578685371BF8CED497C34D1 /* Debug */ = {
+		C763DAE1F46AC3FE29AB9B1383BA090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1886F6DD076B7627799615A098466D /* LuckyPropertyWrapper.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper.modulemap";
+				PRODUCT_MODULE_NAME = LuckyPropertyWrapper;
+				PRODUCT_NAME = LuckyPropertyWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCE68E2E77AEF1C3CA1B90E50FB97025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5B87175E68CA5366D12760C5FDF64A2 /* Pods-LuckyPropertyWrapper_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -665,6 +750,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Tests/Pods-LuckyPropertyWrapper_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -684,82 +771,14 @@
 			};
 			name = Debug;
 		};
-		C239EF9FE2EA59F83ADCF1833CD3B73B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BE5CEF4CEE62F41379958CEF262ABE6 /* Pods-LuckyPropertyWrapper_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Tests/Pods-LuckyPropertyWrapper_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LuckyPropertyWrapper_Tests/Pods-LuckyPropertyWrapper_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CAFEEFF35039492A1F5209D541FB4A88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C236FCEEB28C7D9EF48BBCAABE1859A /* LuckyPropertyWrapper.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LuckyPropertyWrapper/LuckyPropertyWrapper.modulemap";
-				PRODUCT_MODULE_NAME = LuckyPropertyWrapper;
-				PRODUCT_NAME = LuckyPropertyWrapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		474A2AAE59C60D6EC8057AA9C03CFFB3 /* Build configuration list for PBXNativeTarget "LuckyPropertyWrapper" */ = {
+		241C8956DD452553E2E93E0A8B168565 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11A83D41BB5F54286E778F442CB07F8D /* Debug */,
-				CAFEEFF35039492A1F5209D541FB4A88 /* Release */,
+				5F5EB7B978EF6B7D221D3ABA1876D11B /* Debug */,
+				361E5EFCF2A5F9B7788D182AC3DD9589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -773,20 +792,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E04184ED289F20C2C8B4F46C3CA48286 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Example" */ = {
+		8C4FCD1B4FE21217BC0B03416F00A19A /* Build configuration list for PBXNativeTarget "LuckyPropertyWrapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D2FD3F73FA3E0F00CE0990B04BF49F3 /* Debug */,
-				52CDDBA740524C1DAE50E525EBF32145 /* Release */,
+				18AECB969AD60D07A7AFEB20500FC07C /* Debug */,
+				C763DAE1F46AC3FE29AB9B1383BA090D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5B199BD0F91F97AD65F5F4FAD733B05 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Tests" */ = {
+		F62BE1CA3447C493972240AC6C7BBF70 /* Build configuration list for PBXNativeTarget "Pods-LuckyPropertyWrapper_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B12BE0F89578685371BF8CED497C34D1 /* Debug */,
-				C239EF9FE2EA59F83ADCF1833CD3B73B /* Release */,
+				DCE68E2E77AEF1C3CA1B90E50FB97025 /* Debug */,
+				8320BF1143BCDB4FFDA527CBAF4C7A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
