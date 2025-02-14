@@ -32,6 +32,8 @@ public struct KeychainProperty<T: Codable> {
                     return defaultValue
                 }
                 return res
+            }else{
+                print("Keychain read error: \(key) \(status)")
             }
             return defaultValue
         }
@@ -48,6 +50,7 @@ public struct KeychainProperty<T: Codable> {
                 }
                 SecItemDelete(query as CFDictionary)
                 query[kSecValueData as String] = encodedValue
+                query[kSecAttrAccessible as String] = kSecAttrAccessibleWhenUnlocked
                 SecItemAdd(query as CFDictionary, nil)
             }
         }
