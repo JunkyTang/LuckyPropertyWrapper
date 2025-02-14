@@ -3,26 +3,45 @@ import LuckyPropertyWrapper
 
 class Tests: XCTestCase {
     
+    @KeychainProperty(key: "com.keychain.testValue", defaultValue: nil)
+    var testValue: String?
+    
+    
     override func setUp() {
         super.setUp()
+        clearKeychain()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        clearKeychain()
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func clearKeychain() {
+        testValue = nil
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testInitialValue() {
+        XCTAssertEqual(testValue, nil, "Keychain should return default value if no data exists")
+    }
+
+    func testSaveAndRetrieve() {
+        testValue = "Hello, Keychain!"
+        XCTAssertEqual(testValue, "Hello, Keychain!", "Keychain should return stored value")
+    }
+
+    func testUpdateValue() {
+        testValue = "Initial Value"
+        testValue = "Updated Value"
+        XCTAssertEqual(testValue, "Updated Value", "Keychain should return updated value")
+    }
+
+    func testDeleteAndRetrieveDefault() {
+        
+        testValue = "To be deleted"
+        clearKeychain()
+        XCTAssertEqual(testValue, nil, "After deletion, Keychain should return default value")
     }
     
 }
