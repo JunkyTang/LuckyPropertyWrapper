@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        msg = "Hello world!"
+        msg = "Hello"
         print("write success")
     }
     

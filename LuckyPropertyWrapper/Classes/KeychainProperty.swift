@@ -41,12 +41,13 @@ public struct KeychainProperty<T: Codable> {
             if let encodedValue = try? encoder.encode(newValue) {
                 var query: [String: Any] = [
                     kSecClass as String: kSecClassGenericPassword,
-                    kSecAttrAccount as String: key,
-                    kSecValueData as String: encodedValue
+                    kSecAttrAccount as String: key
                 ]
                 if let group = group {
                     query[kSecAttrAccessGroup as String] = group
                 }
+                SecItemDelete(query as CFDictionary)
+                query[kSecValueData as String] = encodedValue
                 SecItemAdd(query as CFDictionary, nil)
             }
         }
