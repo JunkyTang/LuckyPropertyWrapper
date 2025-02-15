@@ -1,5 +1,5 @@
 PODS:
-  - LuckyPropertyWrapper (0.2.2)
+  - LuckyPropertyWrapper (0.2.6)
 
 DEPENDENCIES:
   - LuckyPropertyWrapper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LuckyPropertyWrapper: c8137bc83ba17f4b87ab1bb5e4a228c7f3601ff3
+  LuckyPropertyWrapper: 822afc253bbf46c189d1990c2ddfc5fa5e682dd6
 
 PODFILE CHECKSUM: 7c5c86c31a9e4582760e93a69c73183600010df3
 
