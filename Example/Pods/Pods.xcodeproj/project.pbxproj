@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		024424572441CC19AE62A90DF27CEAEF /* PassthroughSubjectProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A1D3C87D62BC6E48B3EB8389B7CCE /* PassthroughSubjectProperty.swift */; };
 		12DA8AE10F89B8C9A4C26A380535C082 /* Pods-LuckyPropertyWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D4571F3F660E677909E8BD85629D61 /* Pods-LuckyPropertyWrapper_Tests-dummy.m */; };
+		3BD251FA2D62E5E900641315 /* InfoPlistProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD251F92D62E5E900641315 /* InfoPlistProperty.swift */; };
 		4CBD5CCB66909E3F7B87331EE4A68012 /* Pods-LuckyPropertyWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0E8999A49ACB451B3948D374CD940D /* Pods-LuckyPropertyWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E74DD7CA2DBA4DA356D91983E37FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		8DC6468BC26E8A8754386B3ECD4EAE8C /* UserDefaultsProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725C5C8730A85E4DD8F8145949F0FD8 /* UserDefaultsProperty.swift */; };
@@ -41,22 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00042451DA8FB472C5AFBDE56EA7AA32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00042451DA8FB472C5AFBDE56EA7AA32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16444B946ADA41C52324867B4ABE71C1 /* Pods-LuckyPropertyWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyPropertyWrapper_Example.modulemap"; sourceTree = "<group>"; };
 		16D4571F3F660E677909E8BD85629D61 /* Pods-LuckyPropertyWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyPropertyWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
-		2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyPropertyWrapper_Example"; path = Pods_LuckyPropertyWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPropertyWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B45D621DCC985AE7540F3B936932F03 /* Pods-LuckyPropertyWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyPropertyWrapper_Tests"; path = Pods_LuckyPropertyWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPropertyWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		339C26406B47F445C2D28A902F8D2F1E /* Pods-LuckyPropertyWrapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Tests-Info.plist"; sourceTree = "<group>"; };
 		3515ACDB586490A900BA8BC0A6CDA4C9 /* Pods-LuckyPropertyWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyPropertyWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BD251F92D62E5E900641315 /* InfoPlistProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoPlistProperty.swift; path = Sources/Classes/InfoPlistProperty.swift; sourceTree = "<group>"; };
 		3BE5CEF4CEE62F41379958CEF262ABE6 /* Pods-LuckyPropertyWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyPropertyWrapper; path = LuckyPropertyWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LuckyPropertyWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A0B88A621EF55307706AB2DA4D027A /* LuckyPropertyWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyPropertyWrapper-umbrella.h"; sourceTree = "<group>"; };
 		4834E7794B32D3EC00F44BF51FB4297A /* KeychainProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainProperty.swift; path = Sources/Classes/KeychainProperty.swift; sourceTree = "<group>"; };
 		52B09A0B9C878946CC3E985D5EA43037 /* Pods-LuckyPropertyWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		565A1D3C87D62BC6E48B3EB8389B7CCE /* PassthroughSubjectProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughSubjectProperty.swift; path = Sources/Classes/PassthroughSubjectProperty.swift; sourceTree = "<group>"; };
-		5747023DC10AE134C62DCE822F1079A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5747023DC10AE134C62DCE822F1079A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		57B72AB18692A2B6A990DDEA692E7B5A /* LuckyPropertyWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyPropertyWrapper.modulemap; sourceTree = "<group>"; };
 		5AF7B3F780ABF47790C0730AFE407D10 /* CurrentValueSubjectProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentValueSubjectProperty.swift; path = Sources/Classes/CurrentValueSubjectProperty.swift; sourceTree = "<group>"; };
 		7725C5C8730A85E4DD8F8145949F0FD8 /* UserDefaultsProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsProperty.swift; path = Sources/Classes/UserDefaultsProperty.swift; sourceTree = "<group>"; };
@@ -65,13 +67,13 @@
 		910E766B9BBAE7F2AD9CF6C61A13156C /* Pods-LuckyPropertyWrapper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Example-Info.plist"; sourceTree = "<group>"; };
 		9212BF064BDAD432A28E9BEB316154C8 /* Pods-LuckyPropertyWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D4E734BA1294FE65A033EFD00541C41 /* Pods-LuckyPropertyWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyPropertyWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5B87175E68CA5366D12760C5FDF64A2 /* Pods-LuckyPropertyWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyPropertyWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0E8999A49ACB451B3948D374CD940D /* Pods-LuckyPropertyWrapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyPropertyWrapper_Example-umbrella.h"; sourceTree = "<group>"; };
 		B94231133F487BD0FDFEA876A2B7941A /* Pods-LuckyPropertyWrapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyPropertyWrapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BAF19175DD7981E5759E485D55D2BFD9 /* LuckyPropertyWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyPropertyWrapper.release.xcconfig; sourceTree = "<group>"; };
 		BF8F7D70A8755486ACDAB89AF3B8F53A /* LuckyPropertyWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyPropertyWrapper-prefix.pch"; sourceTree = "<group>"; };
-		C3389BB2A0E64F82F3DD578A85B04F76 /* LuckyPropertyWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LuckyPropertyWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3389BB2A0E64F82F3DD578A85B04F76 /* LuckyPropertyWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LuckyPropertyWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDCF04AEEA3FEDD2414D645C0DFCE01D /* Pods-LuckyPropertyWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyPropertyWrapper_Example-dummy.m"; sourceTree = "<group>"; };
 		D1ED47851E627399DB1F26A39F13FA7B /* LuckyPropertyWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyPropertyWrapper-Info.plist"; sourceTree = "<group>"; };
 		DC56B3185411986746FB4FAB9C86A54F /* LuckyPropertyWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyPropertyWrapper.debug.xcconfig; sourceTree = "<group>"; };
@@ -126,9 +128,9 @@
 		0BFF314321B3161A7B693F74EBD4DE8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */,
-				2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */,
-				2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */,
+				3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */,
+				2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */,
+				2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,6 +177,7 @@
 				4834E7794B32D3EC00F44BF51FB4297A /* KeychainProperty.swift */,
 				565A1D3C87D62BC6E48B3EB8389B7CCE /* PassthroughSubjectProperty.swift */,
 				7725C5C8730A85E4DD8F8145949F0FD8 /* UserDefaultsProperty.swift */,
+				3BD251F92D62E5E900641315 /* InfoPlistProperty.swift */,
 				6EC8ABD17F1E50A6CAEDA74ED6EB74A1 /* Pod */,
 				05AEBE969EBBD2BAE67289481CD5C201 /* Support Files */,
 			);
@@ -280,7 +283,7 @@
 			);
 			name = LuckyPropertyWrapper;
 			productName = LuckyPropertyWrapper;
-			productReference = 3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper */;
+			productReference = 3D5F9EA6A5FDABAA01068D085E22D918 /* LuckyPropertyWrapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B1E0690F4E8479B2780CB609931599BC /* Pods-LuckyPropertyWrapper_Tests */ = {
@@ -299,7 +302,7 @@
 			);
 			name = "Pods-LuckyPropertyWrapper_Tests";
 			productName = Pods_LuckyPropertyWrapper_Tests;
-			productReference = 2ED9B901AB3B39B12CCA8938F5B41108 /* Pods-LuckyPropertyWrapper_Tests */;
+			productReference = 2ED9B901AB3B39B12CCA8938F5B41108 /* Pods_LuckyPropertyWrapper_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EF92BCCFC9D492C5C438F8423BCD21FA /* Pods-LuckyPropertyWrapper_Example */ = {
@@ -318,7 +321,7 @@
 			);
 			name = "Pods-LuckyPropertyWrapper_Example";
 			productName = Pods_LuckyPropertyWrapper_Example;
-			productReference = 2775BA801A54D585E74735EBDEF0309C /* Pods-LuckyPropertyWrapper_Example */;
+			productReference = 2775BA801A54D585E74735EBDEF0309C /* Pods_LuckyPropertyWrapper_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -339,8 +342,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 0BFF314321B3161A7B693F74EBD4DE8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -389,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD251FA2D62E5E900641315 /* InfoPlistProperty.swift in Sources */,
 				A8B3EC63733888CCF9F180BFC19F5663 /* Atomic.swift in Sources */,
 				B241608F52050B95401A82CF76D2F2A9 /* CurrentValueSubjectProperty.swift in Sources */,
 				D832F1F2EAE8F59387DAFF4CD05A4332 /* KeychainProperty.swift in Sources */,
@@ -691,8 +693,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
